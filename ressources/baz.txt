@@ -1,0 +1,11 @@
+def foo():
+    print("Hello, world !")
+
+def decorator(func):
+    def wrapper(*args):
+        print("This is a decorator")
+        return func(args)
+    return wrapper
+
+def sum(a, b):
+    return a + b
