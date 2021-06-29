@@ -1,0 +1,9 @@
+def foo():
+    print("Hello, world !")
+
+def sum(a, b):
+    return a + b
+
+def bar(name):
+    foo()
+    print(f"My name is {name}")
